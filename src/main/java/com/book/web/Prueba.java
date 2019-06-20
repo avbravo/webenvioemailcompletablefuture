@@ -61,7 +61,7 @@ public class Prueba implements Serializable {
         Executors.newCachedThreadPool().submit(() -> {
             System.out.println("........ Voy a enviar el email");
             Date date = new Date();
-            managerEmail.sendOutlook("avbravo@gmail.com", "{Async}:" + contadoremail, "prueba a " + date.toString(), "aristides.villarreal@utp.ac.pa", "Controljav180den");
+            managerEmail.sendOutlook("receptor@gmail.com", "{Async}:" + contadoremail, "prueba a " + date.toString(), "emisor@gmail.com", "passwordemisor");
             System.out.println(".......... Email enviado");
 //              Thread.sleep(2500);
             completableFuture.complete("Hello"); 
