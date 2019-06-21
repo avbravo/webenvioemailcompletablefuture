@@ -82,6 +82,8 @@
     </dependencies>
 
     <build>
+        <finalName> web</finalName>
+            
         <plugins>
             <plugin>
                 <groupId>fish.payara.maven.plugins</groupId>
