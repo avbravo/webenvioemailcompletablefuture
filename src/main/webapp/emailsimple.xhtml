@@ -25,6 +25,7 @@
                 </p:messages>
               
                  <h:panelGrid columns="2" cellpadding="5">
+                     
                   
                     <p:outputLabel value="Send Email"/>
                     <p:commandButton value="Send"
@@ -33,6 +34,7 @@
                                      action="#{prueba.enviar()}"/>
                     </h:panelGrid>
              </p:panel>
+                <p:outputLabel value="Ingrese al controller e indique los datos de los emails"/>
                 
                  <p:blockUI block="panel" trigger="send" />
                  
